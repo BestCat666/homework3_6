@@ -4,7 +4,7 @@
 
 Console.WriteLine("Введите числа: ");
 int[] num = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-//int rez = 0;
+//int rez = 0; // можно сразу через foreach
 //foreach (int el in num)
 //{
 //  if (el > 0)
@@ -13,6 +13,7 @@ int[] num = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
 //}
 //}
 //Console.WriteLine($"количество положительных числе = {rez}");
+
 void PrintArray(int[] collection)
 {
    for (int i = 0; i < collection.Length; i++)
